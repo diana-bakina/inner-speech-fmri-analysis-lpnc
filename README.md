@@ -17,3 +17,33 @@ The aim of the internship is to conduct deeper analysis of fMRI data collected u
 - MATLAB
 - [SPM toolbox](https://www.fil.ion.ucl.ac.uk/spm/software/)
 
+## Preprocessing Pipeline (SPM12)
+
+Detailed step-by-step guides for preprocessing one subject using SPM12 are available in the `notes/` folder:
+
+- [Preprocessing Steps (Russian)](notes/preprocessing_steps(rus).md)
+- [Preprocessing Steps (English)](notes/preprocessing_steps(en).md)
+
+Each document outlines the spatial and temporal preprocessing flow:
+1. Realignment
+2. Slice Timing Correction
+3. Coregistration
+4. Segmentation & Normalisation
+5. Smoothing
+
+The instructions follow the Batch Editor interface in SPM12 and include all parameter settings.
+
+## Documentation & References
+
+This preprocessing pipeline is based on the following guide:
+
+**Manuel rapide de traitement de données d’IRMf avec le logiciel SPM**  
+*Authors: Emilie Cousin, Cédric Pichat*  
+Université Grenoble Alpes, September 2019
+
+**Useful links:**
+- [SPM official site](http://www.fil.ion.ucl.ac.uk/spm/)
+- [SPM12 official manual (English)](http://www.fil.ion.ucl.ac.uk/spm/doc/)
+- [SPM99 guide (French, theory still valid for SPM12)](http://irmfmrs.free.fr/IMG/pdf/spm99doc.pdf)
+- [Updated guide for SPM8/SPM12 (French, more practical)](http://irmfmrs.free.fr/spip.php?article166)
+- [SPM12 toolboxes](http://www.fil.ion.ucl.ac.uk/spm/ext/)
