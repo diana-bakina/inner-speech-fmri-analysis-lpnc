@@ -109,7 +109,7 @@
 1. SPM > Spatial > Smooth
 2. Images to Smooth → Dependency: Normalise: Write: Normalised Images (Subj 1)
 3. FWHM = [8 8 8] мм (или [6 6 6] при необходимости. Мы создаем два batch файла и для 666, и для 888 на всякий случай)
-4. Prefix = `s` (или в нашем случае s6 и s8
+4. Prefix = `s` (или в нашем случае s6 и s8)
 
 ---
 
