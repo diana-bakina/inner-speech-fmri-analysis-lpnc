@@ -22,7 +22,7 @@ The aim of the internship is to conduct deeper analysis of fMRI data collected u
 Detailed step-by-step guides for preprocessing one subject using SPM12 are available in the `notes/` folder:
 
 - [Preprocessing Steps (Russian)](notes/preprocessing_steps(rus).md)
-- [Preprocessing Steps (English)](notes/preprocessing_steps(en).md)
+- [Preprocessing Steps (English)](notes/preprocessing_steps(eng).md)
 
 Each document outlines the spatial and temporal preprocessing flow:
 1. Realignment
