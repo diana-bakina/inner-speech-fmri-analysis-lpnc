@@ -12,6 +12,15 @@ The aim of the internship is to conduct deeper analysis of fMRI data collected u
 - `check_safe_volume_chunks.m`: Loads a NIfTI file in increments of 50 volumes to determine the maximum number of volumes that can be safely read without error.
 - `check_volume_range.m`: Allows the user to manually select a NIfTI file and attempts to load volumes 501 to 546 one by one, reporting any read errors.
 
+## Batch Files
+
+Batch configurations for preprocessing (SPM12) are available in the `batches/` folder:
+
+- `preprocessing-888.mat`: full preprocessing pipeline with smoothing FWHM = [8 8 8]
+- `preprocessing-666.mat`: same pipeline with FWHM = [6 6 6]
+
+These can be loaded in SPM12 Batch Editor and used directly or modified for other subjects.
+
 ## Requirements
 
 - MATLAB
