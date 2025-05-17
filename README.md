@@ -42,6 +42,21 @@ Each document outlines the spatial and temporal preprocessing flow:
 
 The instructions follow the Batch Editor interface in SPM12 and include all parameter settings.
 
+## First-Level Analysis (SPM12)
+
+Instructions for first-level (individual subject) GLM-based statistical modeling in SPM12:
+
+- [First-Level Analysis (Russian)](notes/first_lvl_analysis(rus).md)
+- [First-Level Analysis (English)](notes/first_lvl_analysis(eng).md)
+
+This process includes:
+1. Creating an output directory  
+2. Preparing onset files  
+3. Specifying the model and timing settings  
+4. Importing functional scans and conditions  
+5. Setting regressors, HRF model, and high-pass filter  
+6. Finalizing and running the model
+
 ## Documentation & References
 
 This preprocessing pipeline is based on the following guide:
