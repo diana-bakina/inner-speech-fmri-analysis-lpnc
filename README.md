@@ -1,4 +1,4 @@
-# fMRI Internship — LPNC, Grenoble (April 2025)
+# fMRI Internship — LPNC, Grenoble (February-April 2025)
 
 This repository contains MATLAB scripts developed during my research internship at the LPNC (Laboratoire de Psychologie et NeuroCognition, CNRS UMR 5105, Université Grenoble Alpes) under the supervision of Hélène Lœvenbruck.
 
@@ -18,6 +18,7 @@ Batch configurations for preprocessing (SPM12) are available in the `batches/` f
 
 - `preprocessing-888.mat`: full preprocessing pipeline with smoothing FWHM = [8 8 8]
 - `preprocessing-666.mat`: same pipeline with FWHM = [6 6 6]
+- `1st-lvl-stats-batch.mat` — first-level GLM model for a single subject (SPM12)
 
 These can be loaded in SPM12 Batch Editor and used directly or modified for other subjects.
 
